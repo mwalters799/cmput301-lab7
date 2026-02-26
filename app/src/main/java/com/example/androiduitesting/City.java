@@ -4,9 +4,9 @@ public class City {
     private String city;
     private String province;
 
-    City(String city, String province){
+    City(String city){
         this.city = city;
-        this.province = province;
+        this.province = "Hehe";
     }
 
     String getCityName(){
